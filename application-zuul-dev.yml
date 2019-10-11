@@ -4,7 +4,7 @@ spring:
   application:
     name: GOFISHING-ZUUL
 zuul:
-  ignoredServices: '*' #只能通过路由访问，不能使用服务名访问
+  ignoredServices: '*'
   routes:
     plat:
       serviceId: GOFISHING-PLAT
