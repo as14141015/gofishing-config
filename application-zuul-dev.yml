@@ -16,7 +16,7 @@ zuul:
       serviceId: GOFISHING-COMMON
       path: /common/**
   prefix: /services
-
+#zuul超时时间的设置
 hystrix:
   command:
     default:
