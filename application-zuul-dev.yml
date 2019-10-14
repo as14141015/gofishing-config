@@ -16,3 +16,4 @@ zuul:
       serviceId: GOFISHING-COMMON
       path: /common/**
   prefix: /services
+ 
