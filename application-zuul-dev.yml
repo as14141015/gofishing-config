@@ -16,4 +16,15 @@ zuul:
       serviceId: GOFISHING-COMMON
       path: /common/**
   prefix: /services
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 6000
+ribbon:
+  ConnectTimeout: 6000
+  ReadTimeout: 6000
  
