@@ -12,4 +12,7 @@ zuul:
     product:
       serviceId: GOFISHING-PRODUCT
       path: /product/**
+    common:
+      serviceId: GOFISHING-COMMON
+      path: /common/**
   prefix: /services
