@@ -4,3 +4,6 @@ server:
 spring:
   application:
     name: GOFISHING-COMMON
+  data:
+    elasticsearch:
+      cluster-nodes: localhost:9300
